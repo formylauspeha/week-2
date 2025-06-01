@@ -1,0 +1,77 @@
+<html>
+    <style>
+        header {
+            background-color: #6ce474;
+            border: 3px solid black;
+        }
+        footer {
+            background-color: #e6ff77;
+            border: 3px solid black;
+        }
+        h1 {
+            font-size: 128;
+            text-align: center;
+
+        }
+        h2 {
+            font-size: 64;
+            text-align: center;
+            color:hsl(152, 87%, 9%);
+        }
+        h3 {
+            color:  hsl(153, 83%, 82%);
+            font-size: 64;
+
+        }
+        h4 {
+            color: hsl(153, 83%, 82%);
+            font-size: 64;
+            text-align: center;
+
+        }
+        body {
+            background: linear-gradient(to bottom, #A6C0B8,#03da92,#A6C0B8 );
+        }
+        li{
+            font-size: 64;
+        }
+        p {
+            font-size: 36;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>
+                Зоопарк Зверяночка
+            </h1>
+        </header>
+        <main>
+            <h2>
+                Звери со всего мира!!!
+            </h2>
+            <img style="margin: auto; display:block; width: 745px; height: 390px;" src="https://yakapitalist.ru/wp-content/uploads/2020/12/zoopark-rostov.ru_.jpg">
+        <h3>
+            В нашем зоопарке есть:
+        </h3>
+        <ul> 
+            <li>Жираф — самое высокое наземное животное</li>
+            <li>Белый медведь — хищное млекопитающее семейства медвежьих.Белый медведь занесён в Красную книгу России и Международную Красную книгу.</li>
+            <li>Фламинго — крупная водоплавающая птица из отряда фламингообразных.</li> 
+            <li>Слон — самое большое животное на Земле. Он имеет массивное тело, покрытое толстой кожей.</li> 
+            <li>Коала — сумчатое млекопитающее, единственный вид одноимённого семейства и рода.</li> 
+        </ul>
+        <h4>Фотографии животных</h4>
+        <img style="margin: 0 30 0 30;" src="https://i.pinimg.com/736x/da/94/4b/da944b3ce4e1f6a45513da7083291636.jpg" width="300" height="400">
+        <img style="margin: 0 30 0 30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Greater_flamingo%2C_Camargue.jpg/640px-Greater_flamingo%2C_Camargue.jpg"width="300" height="400">
+        <img style="margin: 0 30 0 30" src="https://i.pinimg.com/736x/24/5a/87/245a879bc0fd2119b5238437db5131e6.jpg"width="300" height="400">
+        <br>
+        <img style="margin: 20 30 0 30" src="https://avatars.mds.yandex.net/i?id=5794e1e7efe887b0db5fa5f86f696ed9_l-5250913-images-thumbs&n=13"width="500" height="300">
+        <img style="margin: 20 30 0 30" src="https://avatars.mds.yandex.net/i?id=29b7d323dedbd4a9e9e44026c1e68298_l-10108411-images-thumbs&n=13"width="500" height="300">
+        </main>
+        <footer>
+            <p>Эл.почта: zveryanochka.gmail.ru</p>
+            <p></p>
+            <p>Телефон: +7 909 999 88 88</p>
+        </footer>
+    </body>
+</html>
