@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+            }
+
+            nav {
+                text-align: right;
+                padding-bottom: 25px;
+                border-bottom: 1px dashed black;
+            }
+
+            nav a {
+                margin: 10px;
+                text-decoration: none;
+            }
+
+            h1 {
+                font-size: 50px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .text {
+                width: 300px;
+            }
+
+            .text p {
+                color: lightblue;
+                font-size: 35px;
+            }
+
+            .text em {
+                display: block;
+                text-align: right;
+            }
+
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0px;
+                width: 500px;
+            }
+
+            .gallery img {
+                width: 166.66px;
+                height: 250px;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <nav> <a href="#">Сезонные акции</a> <a href="#">Контакты</a> </nav>
+        <h1>Горные экскурсии</h1>
+        <div class="container">
+            <div class="gallery">
+                <img src="https://basket-05.wbbasket.ru/vol959/part95994/95994701/images/big/1.webp">
+                <img src="https://avatars.mds.yandex.net/i?id=2fccebc64932829c855dc90054205a53_l-12369942-images-thumbs&n=13">
+                <img src="https://basket-05.wbbasket.ru/vol959/part95992/95992802/images/big/1.webp">
+                
+                <img src="https://basket-05.wbbasket.ru/vol959/part95994/95994698/images/big/1.webp">
+                <img src="https://basket-05.wbbasket.ru/vol959/part95992/95992988/images/big/1.webp">
+                <img src="https://basket-05.wbbasket.ru/vol959/part95994/95994703/images/big/1.webp">
+            </div>
+            <div class="text">
+                <p>Только</p>
+                <p><em>горы!</em></p>
+                <p>Только</p>
+                <p><em>вперёд!</em></p>
+            </div>
+        </div>
+    </body>
+</html>
